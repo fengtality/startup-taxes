@@ -2,23 +2,83 @@
     "docs": [
         {
             "location": "/", 
-            "text": "StartupTaxes\n.org\n\n\nAbout\n\n\nStartupTaxes.org is a wiki about the corporate tax filing process for US-based startups.\n\n\nDiclaimers\n\n\n\n\nThe information in this wiki is optimized for Delaware C-corporations\n\n\nThis isn't tax advice", 
-            "title": "Home"
+            "text": "What is your company going to make?\n\n\nSoftware that automates the corporate tax filing process for companies, replacing the role of a human tax accountant.\n\n\nThe first product will be an app that helps tech startups save thousands of dollars on payroll taxes by restating 2016 tax filings to apply the new federal R\nD tax credit.  This is a new \n\n\nWhy did you pick this idea to work on?\n\n\nWith more than 3 million bookkeepers, accountants and auditors in the United States, accounting is an industry ripe for disruption by artificial intelligence.   From spending days on-site interviewing accountants for my previous job, I learned that 90% of their job is ingesting, preparing and reconciling data.\n\n\nI'll well-suited to tackle this problem given my background in corporate finance, my technical skills, and my experience handling taxes as a former founder.\n\n\nWhat do you understand about your business that other companies in it just don't get?\n\n\nOther startups focused on accounting automation are primarily focused on \nbookkeeping\n, a lower-margin task. While bookkeeping is a daily task, it is also more competitive (Quickbooks, Xero), has high switching costs, and it may be difficult for a new entrant to prove that they are objectively better than the status quo (i.e. \nwhat does more accurate books look like?\n).\n\n\nIn contrast, it's much easier to show discrete outperformance in the tax arena (i.e. \nsaving companies money or banking more losses\n).  Also, contrary to common perception, the process of meeting corporate tax obligations is a \nyear-round task\n.", 
+            "title": "Executive summary"
         }, 
         {
-            "location": "/#startuptaxesorg", 
+            "location": "/#what-is-your-company-going-to-make", 
+            "text": "Software that automates the corporate tax filing process for companies, replacing the role of a human tax accountant.  The first product will be an app that helps tech startups save thousands of dollars on payroll taxes by restating 2016 tax filings to apply the new federal R D tax credit.  This is a new", 
+            "title": "What is your company going to make?"
+        }, 
+        {
+            "location": "/#why-did-you-pick-this-idea-to-work-on", 
+            "text": "With more than 3 million bookkeepers, accountants and auditors in the United States, accounting is an industry ripe for disruption by artificial intelligence.   From spending days on-site interviewing accountants for my previous job, I learned that 90% of their job is ingesting, preparing and reconciling data.  I'll well-suited to tackle this problem given my background in corporate finance, my technical skills, and my experience handling taxes as a former founder.", 
+            "title": "Why did you pick this idea to work on?"
+        }, 
+        {
+            "location": "/#what-do-you-understand-about-your-business-that-other-companies-in-it-just-dont-get", 
+            "text": "Other startups focused on accounting automation are primarily focused on  bookkeeping , a lower-margin task. While bookkeeping is a daily task, it is also more competitive (Quickbooks, Xero), has high switching costs, and it may be difficult for a new entrant to prove that they are objectively better than the status quo (i.e.  what does more accurate books look like? ).  In contrast, it's much easier to show discrete outperformance in the tax arena (i.e.  saving companies money or banking more losses ).  Also, contrary to common perception, the process of meeting corporate tax obligations is a  year-round task .", 
+            "title": "What do you understand about your business that other companies in it just don't get?"
+        }, 
+        {
+            "location": "/statusquo/", 
+            "text": "Problem\n\n\nFor early-stage startups, properly fulfilling corporate tax obligations is:\n\n\n\n\n\n\nExpensive\n: Founders pay $2k to $15k per year to accounting firms to help them fulfill tax obligations.\n\n\n\n\n\n\nTime-consuming\n: Founders invest dozen of hours per year into providing accounting firms the information they need: answering questions, filling out questionnaires, exporting data from systems of record, and emailing them documentary evidence.\n\n\n\n\n\n\nCostly if not done right\n: Getting taxes wrong can have a material impact on a company.  For instance: not filing 83-b elections, not paying Delaware franchise tax, not registering as a foreign corporation in California\n\n\n\n\n\n\nSub-optimal\n: Startups stand to benefit from recent changes in tax laws, such as the R\nD payroll tax credit and the treatment of cell phone reimbursements as non-taxable expenses.  However, accounting firms are not incentivized to maximize their clients' tax positions because they are paid on a flat fee basis.\n\n\n\n\n\n\nNot future-proof\n: As startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.\n\n\n\n\n\n\nCurrent solutions\n\n\nStartups use different providers for tax-related obligations:\n\n\n\n\n\n\nCorporate taxes\n: Startups typically hire small, local accounting firms to tax-related obligations.  These   Some startups also hire these firms for day-to-day bookkeeping\n\n\n\n\n\n\nPayroll taxes\n: Each quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects.\n\n\n\n\n\n\nSales tax / VAT\n: Large and mid-sized startups use software such as \nAvalara\n, while smaller startups either aren't diverisified enough or aren't big enough to worry about it.\n\n\n\n\n\n\nThe opportunity\n\n\nEnsuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data, \nthe work should be performed by an intelligent software agent, not a human\n.  \n\n\nFor personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.  \n\n\nA software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.\n\n\n\n\nBurning question\n\n\nHow much do companies spend on taxes?", 
+            "title": "The status quo"
+        }, 
+        {
+            "location": "/statusquo/#problem", 
+            "text": "For early-stage startups, properly fulfilling corporate tax obligations is:    Expensive : Founders pay $2k to $15k per year to accounting firms to help them fulfill tax obligations.    Time-consuming : Founders invest dozen of hours per year into providing accounting firms the information they need: answering questions, filling out questionnaires, exporting data from systems of record, and emailing them documentary evidence.    Costly if not done right : Getting taxes wrong can have a material impact on a company.  For instance: not filing 83-b elections, not paying Delaware franchise tax, not registering as a foreign corporation in California    Sub-optimal : Startups stand to benefit from recent changes in tax laws, such as the R D payroll tax credit and the treatment of cell phone reimbursements as non-taxable expenses.  However, accounting firms are not incentivized to maximize their clients' tax positions because they are paid on a flat fee basis.    Not future-proof : As startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.", 
+            "title": "Problem"
+        }, 
+        {
+            "location": "/statusquo/#current-solutions", 
+            "text": "Startups use different providers for tax-related obligations:    Corporate taxes : Startups typically hire small, local accounting firms to tax-related obligations.  These   Some startups also hire these firms for day-to-day bookkeeping    Payroll taxes : Each quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects.    Sales tax / VAT : Large and mid-sized startups use software such as  Avalara , while smaller startups either aren't diverisified enough or aren't big enough to worry about it.", 
+            "title": "Current solutions"
+        }, 
+        {
+            "location": "/statusquo/#the-opportunity", 
+            "text": "Ensuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data,  the work should be performed by an intelligent software agent, not a human .    For personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.    A software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.   Burning question  How much do companies spend on taxes?", 
+            "title": "The opportunity"
+        }, 
+        {
+            "location": "/picture/", 
             "text": "", 
-            "title": "StartupTaxes.org"
+            "title": "The big picture"
         }, 
         {
-            "location": "/#about", 
-            "text": "StartupTaxes.org is a wiki about the corporate tax filing process for US-based startups.", 
-            "title": "About"
+            "location": "/whynow/", 
+            "text": "", 
+            "title": "Why now?"
         }, 
         {
-            "location": "/#diclaimers", 
-            "text": "The information in this wiki is optimized for Delaware C-corporations  This isn't tax advice", 
-            "title": "Diclaimers"
+            "location": "/product/", 
+            "text": "", 
+            "title": "The first product"
+        }, 
+        {
+            "location": "/goto/", 
+            "text": "", 
+            "title": "Go-to-market"
+        }, 
+        {
+            "location": "/models/", 
+            "text": "", 
+            "title": "Business models"
+        }, 
+        {
+            "location": "/landscape/", 
+            "text": "", 
+            "title": "Competitive landscape"
+        }, 
+        {
+            "location": "/objections/", 
+            "text": "", 
+            "title": "Common objections"
+        }, 
+        {
+            "location": "/timeline/", 
+            "text": "", 
+            "title": "Timeline"
         }
     ]
 }

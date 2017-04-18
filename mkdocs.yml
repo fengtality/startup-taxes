@@ -1,8 +1,8 @@
 # Project info
-site_name: StartupTaxes.org
-site_description: A wiki about corporate taxes for US-based startups
+site_name: Startup Taxes
+site_description: Making taxes easier and better for startups
 site_author: Michael Feng
-site_url: http://startuptaxes.org
+site_url: http://mifeng.github.io/startup-taxes
 
 # Repository
 repo_name: 'mifeng/startup-taxes'
@@ -47,7 +47,17 @@ markdown_extensions:
 
 # Page tree
 pages:
-    - Home: index.md
+    - 'Executive summary': index.md
+    - 'The status quo': statusquo.md
+    - 'The big picture': picture.md
+    - 'Why now?': whynow.md
+    - 'The first product': product.md
+    - 'Go-to-market': goto.md
+    - 'Business models': models.md
+    - 'Competitive landscape': landscape.md
+    - 'Common objections': objections.md
+    - 'Timeline': timeline.md
+    
 #    - About: about.md
 #    - Disclaimer: disclaimer.md
 
