@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "StartupTaxes\n.org\n\n\nAbout\n\n\nStartupTaxes.org is a wiki about the corporate tax filing process for US-based startups.\n\n\nDiclaimers\n\n\n\n\nThe information in this wiki is optimized for Delaware C-corporations\n\n\nThis isn't tax advice", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#startuptaxesorg", 
+            "text": "", 
+            "title": "StartupTaxes.org"
+        }, 
+        {
+            "location": "/#about", 
+            "text": "StartupTaxes.org is a wiki about the corporate tax filing process for US-based startups.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/#diclaimers", 
+            "text": "The information in this wiki is optimized for Delaware C-corporations  This isn't tax advice", 
+            "title": "Diclaimers"
+        }
+    ]
+}

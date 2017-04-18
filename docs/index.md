@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# StartupTaxes<small>.org</small>
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+## About
+StartupTaxes.org is a wiki about the corporate tax filing process for US-based startups.
 
-## Commands
+## Diclaimers
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* The information in this wiki is optimized for Delaware C-corporations
+* This isn't tax advice
