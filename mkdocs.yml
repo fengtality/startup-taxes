@@ -20,6 +20,9 @@ extra:
     primary: 'blue grey'
     accent: 'teal'
 
+# Config
+docs_dir: docs-edit
+
 # Extensions
 markdown_extensions:
   - admonition

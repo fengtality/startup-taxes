@@ -10,4 +10,4 @@ Wiki about the process of filing corporate taxes for US-based startups
 `mkdocs serve`
 
 # deploy
-`mkdocs build`
+`mkdocs build --site-dir docs`
