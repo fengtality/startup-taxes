@@ -22,7 +22,7 @@ extra:
     accent: 'teal'
 
 # Config
-docs_dir: docs-edit
+docs_dir: edit
 
 # Extensions
 markdown_extensions:
@@ -54,7 +54,7 @@ pages:
     - 'Product': product.md
     - 'Go-to-market': goto.md
     - 'Competitive landscape': landscape.md
-    - 'Common objections': objections.md
+    - 'FAQ': faq.md
     - 'Timeline': timeline.md
     
 #    - About: about.md

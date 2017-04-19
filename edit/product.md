@@ -16,8 +16,14 @@
 * Circumvent annual cycle time and build credibility by allowing startups to simulate tax filings for prior years
 
 ### Tax calendar
+> Tool that creates calendar reminders for important tax dates throughout the year
 
-* Tool that places Google Calendar reminders for important tax dates, depending on a startup's fiscal year-end and incorporation status
+* Contrary to common perception, the process of meeting corporate tax obligations is a [year-round task](https://kruze.app.box.com/v/sfstartuptaxcalendar).
+* Ask a few basic questions:
+    * states of incorporation/operation
+    * company type (LLC/S-corp/C-corp/sole proprietoship)
+    * fiscal and year end date)
+* Use Google Calendar API to create events and reminders
 * Probably needs to be really cheap or free
 
 ### Expense finder
