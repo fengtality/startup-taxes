@@ -47,13 +47,12 @@ markdown_extensions:
 
 # Page tree
 pages:
-    - 'Executive summary': index.md
-    - 'The status quo': statusquo.md
-    - 'The big picture': picture.md
+    - 'Intro': index.md
+    - 'Problem': problem.md
+    - 'Market size': market.md
     - 'Why now?': whynow.md
-    - 'The first product': product.md
+    - 'Product': product.md
     - 'Go-to-market': goto.md
-    - 'Business models': models.md
     - 'Competitive landscape': landscape.md
     - 'Common objections': objections.md
     - 'Timeline': timeline.md

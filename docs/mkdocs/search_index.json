@@ -3,7 +3,7 @@
         {
             "location": "/", 
             "text": "What is your company going to make?\n\n\nSoftware that automates the corporate tax filing process for companies, replacing the role of a human tax accountant.\n\n\nThe first product will be an app that helps tech startups save thousands of dollars on payroll taxes by restating 2016 tax filings to apply the new federal R\nD tax credit.  This is a new \n\n\nWhy did you pick this idea to work on?\n\n\nWith more than 3 million bookkeepers, accountants and auditors in the United States, accounting is an industry ripe for disruption by artificial intelligence.   From spending days on-site interviewing accountants for my previous job, I learned that 90% of their job is ingesting, preparing and reconciling data.\n\n\nI'll well-suited to tackle this problem given my background in corporate finance, my technical skills, and my experience handling taxes as a former founder.\n\n\nWhat do you understand about your business that other companies in it just don't get?\n\n\nOther startups focused on accounting automation are primarily focused on \nbookkeeping\n, a lower-margin task. While bookkeeping is a daily task, it is also more competitive (Quickbooks, Xero), has high switching costs, and it may be difficult for a new entrant to prove that they are objectively better than the status quo (i.e. \nwhat does more accurate books look like?\n).\n\n\nIn contrast, it's much easier to show discrete outperformance in the tax arena (i.e. \nsaving companies money or banking more losses\n).  Also, contrary to common perception, the process of meeting corporate tax obligations is a \nyear-round task\n.", 
-            "title": "Executive summary"
+            "title": "Intro"
         }, 
         {
             "location": "/#what-is-your-company-going-to-make", 
@@ -21,49 +21,154 @@
             "title": "What do you understand about your business that other companies in it just don't get?"
         }, 
         {
-            "location": "/statusquo/", 
-            "text": "Problem\n\n\nFor early-stage startups, properly fulfilling corporate tax obligations is:\n\n\n\n\n\n\nExpensive\n: Founders pay $2k to $15k per year to accounting firms to help them fulfill tax obligations.\n\n\n\n\n\n\nTime-consuming\n: Founders invest dozen of hours per year into providing accounting firms the information they need: answering questions, filling out questionnaires, exporting data from systems of record, and emailing them documentary evidence.\n\n\n\n\n\n\nCostly if not done right\n: Getting taxes wrong can have a material impact on a company.  For instance: not filing 83-b elections, not paying Delaware franchise tax, not registering as a foreign corporation in California\n\n\n\n\n\n\nSub-optimal\n: Startups stand to benefit from recent changes in tax laws, such as the R\nD payroll tax credit and the treatment of cell phone reimbursements as non-taxable expenses.  However, accounting firms are not incentivized to maximize their clients' tax positions because they are paid on a flat fee basis.\n\n\n\n\n\n\nNot future-proof\n: As startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.\n\n\n\n\n\n\nCurrent solutions\n\n\nStartups use different providers for tax-related obligations:\n\n\n\n\n\n\nCorporate taxes\n: Startups typically hire small, local accounting firms to tax-related obligations.  These   Some startups also hire these firms for day-to-day bookkeeping\n\n\n\n\n\n\nPayroll taxes\n: Each quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects.\n\n\n\n\n\n\nSales tax / VAT\n: Large and mid-sized startups use software such as \nAvalara\n, while smaller startups either aren't diverisified enough or aren't big enough to worry about it.\n\n\n\n\n\n\nThe opportunity\n\n\nEnsuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data, \nthe work should be performed by an intelligent software agent, not a human\n.  \n\n\nFor personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.  \n\n\nA software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.\n\n\n\n\nBurning question\n\n\nHow much do companies spend on taxes?", 
-            "title": "The status quo"
-        }, 
-        {
-            "location": "/statusquo/#problem", 
-            "text": "For early-stage startups, properly fulfilling corporate tax obligations is:    Expensive : Founders pay $2k to $15k per year to accounting firms to help them fulfill tax obligations.    Time-consuming : Founders invest dozen of hours per year into providing accounting firms the information they need: answering questions, filling out questionnaires, exporting data from systems of record, and emailing them documentary evidence.    Costly if not done right : Getting taxes wrong can have a material impact on a company.  For instance: not filing 83-b elections, not paying Delaware franchise tax, not registering as a foreign corporation in California    Sub-optimal : Startups stand to benefit from recent changes in tax laws, such as the R D payroll tax credit and the treatment of cell phone reimbursements as non-taxable expenses.  However, accounting firms are not incentivized to maximize their clients' tax positions because they are paid on a flat fee basis.    Not future-proof : As startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.", 
+            "location": "/problem/", 
+            "text": "Startup taxes are painful\n\n\nAs a startup founder, taxes are the last thing you want to spend your precious time on.  However, you're also cognizant that screwing them up can be extremely harmful to your company.  Therefore, you pay experts to make the problem go away.\n\n\nTaxes are a big source of anxiety because they are:\n\n\nExpensive\n\n\nFounders pay $2k to $15k per year to accounting firms to help them fulfill tax obligations.\n\n\n\n\nFor all Finance \n Accounting, we paid a total of ~ $12K for 2015 and ~ $7K for 2016. This includes tax. I think 2015 also included $4K for a 409A valuation. My bookkeeping needs are very modest, ~ $2-300/year.\n1\n\n\nWe pay between $3k to $5k per month to our CPA for bookkeeping and tax services. \n2\n\n\n\n\nTime-consuming\n\n\nFounders invest dozen of hours per year into providing accounting firms the information they need: answering questions, filling out questionnaires, exporting data from systems of record, and emailing them documentary evidence.\n\n\nCostly if not done right\n\n\nGetting taxes wrong can have a material impact on a company.  For instance:\n\n\n\n\nnot filing 83-b elections\n\n\nnot paying Delaware franchise tax\n\n\nnot registering as a foreign corporation in California\n\n\nnot withholding tax for international contractors\n\n\nnot paying sales/VAT tax\n\n\n\n\n\n\nI paid our accountant $2k per year for corporate taxes and usually another $2k to clean up the books which I maintained myself.  When I first hired them, they were a lifesaver because they discovered that we had omitted to register as a CA foreign corporation, which meant that we couldn't sell anything.  I gladly paid them about $4k to rectify the issue. \n3\n\n\n\n\nSub-optimal\n\n\nWhile startups stand to benefit from recent changes in tax laws, such as the R\nD payroll tax credit and the treatment of cell phone reimbursements as non-taxable expenses, many accounting firms are.  However, accounting firms are not incentivized to maximize their clients' tax positions because they are paid on a flat fee basis.\n\n\nNot future-proof\n\n\nAs startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.\n\n\nStatus quo solutions\n\n\nStartups use different providers for tax-related obligations:\n\n\nCorporate tax\n\n\nStartups typically hire small, local accounting firms to tax-related obligations. Some startups also hire these firms for day-to-day bookkeeping.  This is an extremely fragmented, non-technically savvy industry.\n\n\nPayroll tax\n\n\nEach quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects for US-based employees and contractors.  \n\n\nCurrently, it appears that companies with international employees and contractors need to manage payroll and tax for them manually.\n\n\n\n\nReminder\n\n\nCheck with smaller startups like Appfluence like how they handle international employees\n\n\n\n\nSales tax and VAT\n\n\nWhile software solutions such as \nAvalara\n and Taxjar exist, they still require integration with billing and ERP systems.  Smaller startups usually ignore these issues until they get big enough.  \n\n\nAt my prior company (Nitro), the complexity of integrating VAT-related tax solutions prevented us from selling certain products outside the United States.\n\n\nThe opportunity\n\n\nEnsuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data, \nthe work should be performed by an intelligent software agent, not a human\n.  \n\n\nFor personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.  \n\n\nA software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.\n\n\n\n\nQuestion\n\n\nHow much do companies spend on taxes?\n\n\n\n\n\n\n\n\n\n\n\n\nFounder of a post-angel, pre-seed startup with revenues under $1m.\n\n\n\n\n\n\nFounder of a post-seed, pre-Series A startup with revenues over $1m.\n\n\n\n\n\n\nMe, at my last startup.", 
             "title": "Problem"
         }, 
         {
-            "location": "/statusquo/#current-solutions", 
-            "text": "Startups use different providers for tax-related obligations:    Corporate taxes : Startups typically hire small, local accounting firms to tax-related obligations.  These   Some startups also hire these firms for day-to-day bookkeeping    Payroll taxes : Each quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects.    Sales tax / VAT : Large and mid-sized startups use software such as  Avalara , while smaller startups either aren't diverisified enough or aren't big enough to worry about it.", 
-            "title": "Current solutions"
+            "location": "/problem/#startup-taxes-are-painful", 
+            "text": "As a startup founder, taxes are the last thing you want to spend your precious time on.  However, you're also cognizant that screwing them up can be extremely harmful to your company.  Therefore, you pay experts to make the problem go away.  Taxes are a big source of anxiety because they are:", 
+            "title": "Startup taxes are painful"
         }, 
         {
-            "location": "/statusquo/#the-opportunity", 
-            "text": "Ensuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data,  the work should be performed by an intelligent software agent, not a human .    For personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.    A software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.   Burning question  How much do companies spend on taxes?", 
+            "location": "/problem/#expensive", 
+            "text": "Founders pay $2k to $15k per year to accounting firms to help them fulfill tax obligations.   For all Finance   Accounting, we paid a total of ~ $12K for 2015 and ~ $7K for 2016. This includes tax. I think 2015 also included $4K for a 409A valuation. My bookkeeping needs are very modest, ~ $2-300/year. 1  We pay between $3k to $5k per month to our CPA for bookkeeping and tax services.  2", 
+            "title": "Expensive"
+        }, 
+        {
+            "location": "/problem/#time-consuming", 
+            "text": "Founders invest dozen of hours per year into providing accounting firms the information they need: answering questions, filling out questionnaires, exporting data from systems of record, and emailing them documentary evidence.", 
+            "title": "Time-consuming"
+        }, 
+        {
+            "location": "/problem/#costly-if-not-done-right", 
+            "text": "Getting taxes wrong can have a material impact on a company.  For instance:   not filing 83-b elections  not paying Delaware franchise tax  not registering as a foreign corporation in California  not withholding tax for international contractors  not paying sales/VAT tax    I paid our accountant $2k per year for corporate taxes and usually another $2k to clean up the books which I maintained myself.  When I first hired them, they were a lifesaver because they discovered that we had omitted to register as a CA foreign corporation, which meant that we couldn't sell anything.  I gladly paid them about $4k to rectify the issue.  3", 
+            "title": "Costly if not done right"
+        }, 
+        {
+            "location": "/problem/#sub-optimal", 
+            "text": "While startups stand to benefit from recent changes in tax laws, such as the R D payroll tax credit and the treatment of cell phone reimbursements as non-taxable expenses, many accounting firms are.  However, accounting firms are not incentivized to maximize their clients' tax positions because they are paid on a flat fee basis.", 
+            "title": "Sub-optimal"
+        }, 
+        {
+            "location": "/problem/#not-future-proof", 
+            "text": "As startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.", 
+            "title": "Not future-proof"
+        }, 
+        {
+            "location": "/problem/#status-quo-solutions", 
+            "text": "Startups use different providers for tax-related obligations:", 
+            "title": "Status quo solutions"
+        }, 
+        {
+            "location": "/problem/#corporate-tax", 
+            "text": "Startups typically hire small, local accounting firms to tax-related obligations. Some startups also hire these firms for day-to-day bookkeeping.  This is an extremely fragmented, non-technically savvy industry.", 
+            "title": "Corporate tax"
+        }, 
+        {
+            "location": "/problem/#payroll-tax", 
+            "text": "Each quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects for US-based employees and contractors.    Currently, it appears that companies with international employees and contractors need to manage payroll and tax for them manually.   Reminder  Check with smaller startups like Appfluence like how they handle international employees", 
+            "title": "Payroll tax"
+        }, 
+        {
+            "location": "/problem/#sales-tax-and-vat", 
+            "text": "While software solutions such as  Avalara  and Taxjar exist, they still require integration with billing and ERP systems.  Smaller startups usually ignore these issues until they get big enough.    At my prior company (Nitro), the complexity of integrating VAT-related tax solutions prevented us from selling certain products outside the United States.", 
+            "title": "Sales tax and VAT"
+        }, 
+        {
+            "location": "/problem/#the-opportunity", 
+            "text": "Ensuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data,  the work should be performed by an intelligent software agent, not a human .    For personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.    A software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.   Question  How much do companies spend on taxes?       Founder of a post-angel, pre-seed startup with revenues under $1m.    Founder of a post-seed, pre-Series A startup with revenues over $1m.    Me, at my last startup.", 
             "title": "The opportunity"
         }, 
         {
-            "location": "/picture/", 
+            "location": "/market/", 
             "text": "", 
-            "title": "The big picture"
+            "title": "Market size"
         }, 
         {
             "location": "/whynow/", 
-            "text": "", 
+            "text": "Advent of the digital-native company\n\n\nIngesting, formatting and reconciling data comprises 90% of an accountant's job.  Currently, this is time-consuming, highly manual process because accountants accept data in the form of paper documents, spreadsheets, PDFs, and phone screenshots.\n\n\nFor many new tech startups, this data import process is unnecessary because the systems of record that contain all their transactions relevant to corporate taxes are cloud-based or offer APIs:\n\n\n\n\nPayroll: Gusto\n\n\nAccounting: Quickbooks Online, Xero, Netsuite\n\n\nInvoice: Bill.com\n\n\nBilling: Zuora\n\n\nCRM: Salesforce\n\n\nExpenses: Abacus, Expensify\n\n\nBank: Yodlee, Plaid APIs\n\n\n\n\nRule changes for digital services\n\n\nEU VAT rule\n\n\nStates imposing sales tax on SaaS\n\n\nTax code is growing in complexity", 
             "title": "Why now?"
         }, 
         {
-            "location": "/product/", 
+            "location": "/whynow/#advent-of-the-digital-native-company", 
+            "text": "Ingesting, formatting and reconciling data comprises 90% of an accountant's job.  Currently, this is time-consuming, highly manual process because accountants accept data in the form of paper documents, spreadsheets, PDFs, and phone screenshots.  For many new tech startups, this data import process is unnecessary because the systems of record that contain all their transactions relevant to corporate taxes are cloud-based or offer APIs:   Payroll: Gusto  Accounting: Quickbooks Online, Xero, Netsuite  Invoice: Bill.com  Billing: Zuora  CRM: Salesforce  Expenses: Abacus, Expensify  Bank: Yodlee, Plaid APIs", 
+            "title": "Advent of the digital-native company"
+        }, 
+        {
+            "location": "/whynow/#rule-changes-for-digital-services", 
+            "text": "EU VAT rule  States imposing sales tax on SaaS", 
+            "title": "Rule changes for digital services"
+        }, 
+        {
+            "location": "/whynow/#tax-code-is-growing-in-complexity", 
             "text": "", 
-            "title": "The first product"
+            "title": "Tax code is growing in complexity"
+        }, 
+        {
+            "location": "/product/", 
+            "text": "Ideas for the first product\n\n\n\n\nWhile I think \ntaxes for startups\n is an attractive market generally, picking the right attack vector is crucial in getting to product-market fit.\n\n\n\n\nR\nD payroll credit app\n\n\n\n\nRestate 2016 taxes to capture R\nD credits\n\n\nIntegrate with payroll processor to institute them\n\n\nCharge a small percentage of the savings\n\n\n\n\nTurboTax for startups\n\n\n\n\nAutomated tool with Q\nA and data integrations to file corporate taxes\n\n\nInitially, for startups using Gusto and Quickbooks Online only\n\n\nCircumvent annual cycle time and build credibility by allowing startups to simulate tax filings for prior years\n\n\n\n\nTax calendar\n\n\n\n\nTool that places Google Calendar reminders for important tax dates, depending on a startup's fiscal year-end and incorporation status\n\n\nProbably needs to be really cheap or free\n\n\n\n\nExpense finder\n\n\n\n\nHelp startup founders identify out-of-pocket business expenses and get them reimbursed while staying in compliance with tax laws\n\n\n\n\n\n\nSearch personal credit card transactions and Gmail for transactions that may be business related and can be expensed\n\n\nBusiness trip-related meals, lodging and transportation\n\n\nCommuting-related expenses up to $255/month (Caltrain, Uber)\n\n\nCell phone bills\n\n\n\n\n\n\nIntegrate with QBO and Xero to report them\n\n\nProbably needs to be really cheap or free\n\n\n\n\nAPI for sales tax and VAT\n\n\n\n\nBuild an API that provides the applicable sales tax and VAT for a given location\n\n\nBuild integrations starting with Salesforce, Stripe, etc.\n\n\n\n\nPEO for international employees and contractors\n\n\n\n\nHelp startup comply with tax regulations for international workers by being the employer of record\n\n\nCharge a percentage of payroll\n\n\n\n\nBusiness models\n\n\nSaaS with PS \n(Avalara, Zuora)\n\n\n\n\nSubscription revenues with different bundles depending on level of service  \n\n\nInclude professional services for complex tax situations and custom integrations\n\n\nScale by serving larger customers\n\n\n\n\nPure SaaS \n(Gusto, Stripe)\n\n\n\n\nSubscription revenues that scale with number of transactions or employees\n\n\nDon't offer professional services\n\n\nScale by serving small businesses in more verticals\n\n\n\n\nAffiliate revenues \n(Mint, Credit Karma)\n\n\nOffer free apps to collect data.  Refer qualified leads to:\n\n\n\n\nAccountants: complex tax situtations, international\n\n\nBanks, online lenders and VCs: companies with track record of revenue growth", 
+            "title": "Product"
+        }, 
+        {
+            "location": "/product/#ideas-for-the-first-product", 
+            "text": "While I think  taxes for startups  is an attractive market generally, picking the right attack vector is crucial in getting to product-market fit.", 
+            "title": "Ideas for the first product"
+        }, 
+        {
+            "location": "/product/#rd-payroll-credit-app", 
+            "text": "Restate 2016 taxes to capture R D credits  Integrate with payroll processor to institute them  Charge a small percentage of the savings", 
+            "title": "R&amp;D payroll credit app"
+        }, 
+        {
+            "location": "/product/#turbotax-for-startups", 
+            "text": "Automated tool with Q A and data integrations to file corporate taxes  Initially, for startups using Gusto and Quickbooks Online only  Circumvent annual cycle time and build credibility by allowing startups to simulate tax filings for prior years", 
+            "title": "TurboTax for startups"
+        }, 
+        {
+            "location": "/product/#tax-calendar", 
+            "text": "Tool that places Google Calendar reminders for important tax dates, depending on a startup's fiscal year-end and incorporation status  Probably needs to be really cheap or free", 
+            "title": "Tax calendar"
+        }, 
+        {
+            "location": "/product/#expense-finder", 
+            "text": "Help startup founders identify out-of-pocket business expenses and get them reimbursed while staying in compliance with tax laws    Search personal credit card transactions and Gmail for transactions that may be business related and can be expensed  Business trip-related meals, lodging and transportation  Commuting-related expenses up to $255/month (Caltrain, Uber)  Cell phone bills    Integrate with QBO and Xero to report them  Probably needs to be really cheap or free", 
+            "title": "Expense finder"
+        }, 
+        {
+            "location": "/product/#api-for-sales-tax-and-vat", 
+            "text": "Build an API that provides the applicable sales tax and VAT for a given location  Build integrations starting with Salesforce, Stripe, etc.", 
+            "title": "API for sales tax and VAT"
+        }, 
+        {
+            "location": "/product/#peo-for-international-employees-and-contractors", 
+            "text": "Help startup comply with tax regulations for international workers by being the employer of record  Charge a percentage of payroll", 
+            "title": "PEO for international employees and contractors"
+        }, 
+        {
+            "location": "/product/#business-models", 
+            "text": "", 
+            "title": "Business models"
+        }, 
+        {
+            "location": "/product/#saas-with-ps-avalara-zuora", 
+            "text": "Subscription revenues with different bundles depending on level of service    Include professional services for complex tax situations and custom integrations  Scale by serving larger customers", 
+            "title": "SaaS with PS (Avalara, Zuora)"
+        }, 
+        {
+            "location": "/product/#pure-saas-gusto-stripe", 
+            "text": "Subscription revenues that scale with number of transactions or employees  Don't offer professional services  Scale by serving small businesses in more verticals", 
+            "title": "Pure SaaS (Gusto, Stripe)"
+        }, 
+        {
+            "location": "/product/#affiliate-revenues-mint-credit-karma", 
+            "text": "Offer free apps to collect data.  Refer qualified leads to:   Accountants: complex tax situtations, international  Banks, online lenders and VCs: companies with track record of revenue growth", 
+            "title": "Affiliate revenues (Mint, Credit Karma)"
         }, 
         {
             "location": "/goto/", 
             "text": "", 
             "title": "Go-to-market"
-        }, 
-        {
-            "location": "/models/", 
-            "text": "", 
-            "title": "Business models"
         }, 
         {
             "location": "/landscape/", 
@@ -72,8 +177,23 @@
         }, 
         {
             "location": "/objections/", 
-            "text": "", 
+            "text": "How can an app replace the complex job of an accountant?\n\n\nWhile it's impossible for an app to replace every aspect of an accountant's job, it may be possible to focus on a single aspect and offer the best-of-breed version of it as a service to the subset of companies who have that need.  For example:\n* Handle R\nD payroll tax credit\n* Identify reimbursable out-of-pocket expenses\n* Handle sales tax and VAT\n\n\nAlso, it may be possible to segment accounting tasks by complexity and data availability.  The app would handles simpler tasks at first.\n\n\n\n\n\n\n\n\nTask complexity\n\n\nData availability\n\n\nExample\n\n\n\n\n\n\n\n\n\n\nSimple\n\n\nYes\n\n\nRevenue recognition\n\n\n\n\n\n\nSimple\n\n\nNo\n\n\nTransaction classification\n\n\n\n\n\n\nComplex\n\n\nYes\n\n\nInternational tax recognition\n\n\n\n\n\n\nComplex\n\n\nNo\n\n\nFinancial planning\n\n\n\n\n\n\n\n\nYou aren\u2019t a CPA. Why are you qualified to build this company?\n\n\n\n\nAccess to customers: I was a startup CEO and know a lot of other founders in my network\n\n\nDomain expertise: I did bookkeeping and 409A valuations myself for my startup.  Also, I have a good grasp of tax accounting from being an investment banker for 9 years.\n\n\nTechnical skillset: I\u2019m a product manager, data scientist and front-end software engineer\n\n\n\n\nAccounting is dominated by branded consortiums of local, relationship-based fiefdoms.  How will you achieve scale in this market?\n\n\nI think this is the #1 risk.  As companies in every industry move their systems of record to the cloud, I will maintain an edge based on data integrations and algorithmic decisions fueled by it", 
             "title": "Common objections"
+        }, 
+        {
+            "location": "/objections/#how-can-an-app-replace-the-complex-job-of-an-accountant", 
+            "text": "While it's impossible for an app to replace every aspect of an accountant's job, it may be possible to focus on a single aspect and offer the best-of-breed version of it as a service to the subset of companies who have that need.  For example:\n* Handle R D payroll tax credit\n* Identify reimbursable out-of-pocket expenses\n* Handle sales tax and VAT  Also, it may be possible to segment accounting tasks by complexity and data availability.  The app would handles simpler tasks at first.     Task complexity  Data availability  Example      Simple  Yes  Revenue recognition    Simple  No  Transaction classification    Complex  Yes  International tax recognition    Complex  No  Financial planning", 
+            "title": "How can an app replace the complex job of an accountant?"
+        }, 
+        {
+            "location": "/objections/#you-arent-a-cpa-why-are-you-qualified-to-build-this-company", 
+            "text": "Access to customers: I was a startup CEO and know a lot of other founders in my network  Domain expertise: I did bookkeeping and 409A valuations myself for my startup.  Also, I have a good grasp of tax accounting from being an investment banker for 9 years.  Technical skillset: I\u2019m a product manager, data scientist and front-end software engineer", 
+            "title": "You aren\u2019t a CPA. Why are you qualified to build this company?"
+        }, 
+        {
+            "location": "/objections/#accounting-is-dominated-by-branded-consortiums-of-local-relationship-based-fiefdoms-how-will-you-achieve-scale-in-this-market", 
+            "text": "I think this is the #1 risk.  As companies in every industry move their systems of record to the cloud, I will maintain an edge based on data integrations and algorithmic decisions fueled by it", 
+            "title": "Accounting is dominated by branded consortiums of local, relationship-based fiefdoms.  How will you achieve scale in this market?"
         }, 
         {
             "location": "/timeline/", 
