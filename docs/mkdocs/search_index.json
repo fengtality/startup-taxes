@@ -37,23 +37,33 @@
         }, 
         {
             "location": "/whynow/", 
-            "text": "Advent of the digital-native company\n\n\nIngesting, formatting and reconciling data comprises 90% of an accountant's job.  Currently, this is time-consuming, highly manual process because accountants accept data in the form of paper documents, spreadsheets, PDFs, and phone screenshots.\n\n\nFor many new tech startups, this data import process is unnecessary because the systems of record that contain all their transactions relevant to corporate taxes are cloud-based or offer APIs:\n\n\n\n\nPayroll: Gusto\n\n\nAccounting: Quickbooks Online, Xero, Netsuite\n\n\nInvoice: Bill.com\n\n\nBilling: Zuora\n\n\nCRM: Salesforce\n\n\nExpenses: Abacus, Expensify\n\n\nBank: Yodlee, Plaid APIs\n\n\n\n\nRule changes for digital services\n\n\nEU VAT rule\n\n\nStates imposing sales tax on SaaS\n\n\nTax code is growing in complexity", 
+            "text": "Cost of tax compliance is rising rapidly\n\n\n\n\nIn 2012, US business filed 10 million federal tax returns.  Each return took 23 hours and cost $420.\n1\n\n\nWhen you include labor and sales taxes, a US business spends \n175 hours a year\n on tax compliance.\n2\n\n\nSystems that hold source data now expose APIs\n\n\nIngesting, formatting and reconciling data comprises 90% of an accountant's job.  Currently, this is time-consuming, highly manual process because accountants accept data in the form of paper documents, spreadsheets, PDFs, and phone screenshots.\n\n\nFor many newer tech startups, this data import process can be greatly shortened because all of their relevant financial transactions are in systems that expose APIs.\n\n\n\n\nPayroll: Gusto\n\n\nAccounting: Quickbooks Online, Xero, Netsuite\n\n\nInvoice: Bill.com\n\n\nBilling: Zuora\n\n\nCRM: Salesforce\n\n\nExpenses: Abacus, Expensify\n\n\nBank: Yodlee, Plaid APIs\n\n\n\n\nSubscription economy businesses aren't well-served by local CPA firms\n\n\nLess complexity in \"bread-and-butter\" CPA areas of expertise\n\n\n\n\nSubscription software and servers = no capitalization and depreciation\n\n\n\n\nMore complexity in facets that CPA firms traditionally don't handle\n\n\n\n\nSales tax for firms that sell nationally\n\n\nEU VAT for firms that sell globally\n\n\nR\nD credit calculation\n\n\n\n\n\n\n\n\n\n\n\n\nTax Foundation, \nThe Cost of Tax Compliance\n.\n\n\n\n\n\n\nTax Foundation, \nIt Takes 175 hours for a U.S. Business to Comply with U.S. Taxes\n.", 
             "title": "Why now?"
         }, 
         {
-            "location": "/whynow/#advent-of-the-digital-native-company", 
-            "text": "Ingesting, formatting and reconciling data comprises 90% of an accountant's job.  Currently, this is time-consuming, highly manual process because accountants accept data in the form of paper documents, spreadsheets, PDFs, and phone screenshots.  For many new tech startups, this data import process is unnecessary because the systems of record that contain all their transactions relevant to corporate taxes are cloud-based or offer APIs:   Payroll: Gusto  Accounting: Quickbooks Online, Xero, Netsuite  Invoice: Bill.com  Billing: Zuora  CRM: Salesforce  Expenses: Abacus, Expensify  Bank: Yodlee, Plaid APIs", 
-            "title": "Advent of the digital-native company"
+            "location": "/whynow/#cost-of-tax-compliance-is-rising-rapidly", 
+            "text": "In 2012, US business filed 10 million federal tax returns.  Each return took 23 hours and cost $420. 1  When you include labor and sales taxes, a US business spends  175 hours a year  on tax compliance. 2", 
+            "title": "Cost of tax compliance is rising rapidly"
         }, 
         {
-            "location": "/whynow/#rule-changes-for-digital-services", 
-            "text": "EU VAT rule  States imposing sales tax on SaaS", 
-            "title": "Rule changes for digital services"
+            "location": "/whynow/#systems-that-hold-source-data-now-expose-apis", 
+            "text": "Ingesting, formatting and reconciling data comprises 90% of an accountant's job.  Currently, this is time-consuming, highly manual process because accountants accept data in the form of paper documents, spreadsheets, PDFs, and phone screenshots.  For many newer tech startups, this data import process can be greatly shortened because all of their relevant financial transactions are in systems that expose APIs.   Payroll: Gusto  Accounting: Quickbooks Online, Xero, Netsuite  Invoice: Bill.com  Billing: Zuora  CRM: Salesforce  Expenses: Abacus, Expensify  Bank: Yodlee, Plaid APIs", 
+            "title": "Systems that hold source data now expose APIs"
         }, 
         {
-            "location": "/whynow/#tax-code-is-growing-in-complexity", 
+            "location": "/whynow/#subscription-economy-businesses-arent-well-served-by-local-cpa-firms", 
             "text": "", 
-            "title": "Tax code is growing in complexity"
+            "title": "Subscription economy businesses aren't well-served by local CPA firms"
+        }, 
+        {
+            "location": "/whynow/#less-complexity-in-bread-and-butter-cpa-areas-of-expertise", 
+            "text": "Subscription software and servers = no capitalization and depreciation", 
+            "title": "Less complexity in \"bread-and-butter\" CPA areas of expertise"
+        }, 
+        {
+            "location": "/whynow/#more-complexity-in-facets-that-cpa-firms-traditionally-dont-handle", 
+            "text": "Sales tax for firms that sell nationally  EU VAT for firms that sell globally  R D credit calculation       Tax Foundation,  The Cost of Tax Compliance .    Tax Foundation,  It Takes 175 hours for a U.S. Business to Comply with U.S. Taxes .", 
+            "title": "More complexity in facets that CPA firms traditionally don't handle"
         }, 
         {
             "location": "/problem/", 
