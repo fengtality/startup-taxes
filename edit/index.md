@@ -6,12 +6,12 @@ A living business plan[^1] about applying technology to the accounting industry,
 
 ## Why accounting?
 
-Accounting, a $160 billion[^2] industry that employs 3 million people[^3] in the US, is ripe for technological disruption.
+A $160 billion[^2] industry that employs 3 million people[^3] in the US, accounting is ripe for technological disruption.
 
 [^2]: [Statista.](https://www.statista.com/topics/2121/accounting-industry-in-the-us/)
 [^3]: Bureau of Labor Statistics, [Accountants & Auditors](https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm) and [Bookkeepers.](https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm)
 
-Abstractions like AWS and Docker have sucked the complexity out of engineering operations, enabling a single engineer to be as productive 10 dozen engineers back in the day.  Yet the financial operations side of the business still employs armies of staff accountants and pays exorbitant fees to CPA firms to handle accounting, tax and audit related work.  
+Abstractions like AWS and Docker have sucked complexity out of software engineering operations, enabling a single ops engineer to be as productive as a dozen people back in the days of physical data centers.  Yet the financial operations side of a tech company still employs armies of staff accountants and pays exorbitant fees to CPA firms to handle accounting, tax and audit related work.  
 
 The vast majority of this work is importing, formatting, and reconciling data.  With the migration of financial transaction data to systems that expose APIs, software can now automate this data pipeline.  While human experts will always need to make complex judgments, machine learning can boost their productivity and accuracy with probabilistic recommendations based on similar decisions.
 
@@ -32,11 +32,13 @@ Ensuring tax compliance is complex and important, and thus should be performed b
 
 I was the CEO and co-founder of [doxIQ](https://www.crunchbase.com/organization/doxiq#/entity), a document analytics startup [acquired](https://blog.gonitro.com/2015/10/nitro-acquires-doxiq-to-deepen-analytics-footprint/) by [Nitro](https://www.gonitro.com/).  Both as a startup founder and as director of product at Nitro, I spent a lot of time and effort dealing with tax-related issues, ranging from filing corporate taxes, calculating R&D credits, and accounting for VAT reporting.
 
+As a PDF software company, Nitro sold a lot of software to accounting firms, so I have some experience with what tax, audit and support personnel at those firms do on a day-to-day basis.
+
 ## Why make this plan public?
 
-**Ideas are cheap; execution is what matters**: a lesson that I learned the hard way the first time around.
+This is a little experiment in **radical transparency**.  I believe that ideas are cheap relative to execution, while asking for help is an under-utilized power.  Thus, the benefits of being public about an idea and soliciting feedback should outweigh the risks.
 
-Also, since the status quo alternatives are a fragmented set of non-technical CPA firms, I think the benefits of being public outweigh competitive risks.
+What do you think?  Any feedback is welcome, but I'm especially interested in speaking with startup founders and operations folk who need to deal with tax-related issues.  
 
-Another lesson was: **don't be shy about asking for help and feedback**.  If you're a startup CEO/CFO who hates dealing with taxes or just have a tax-related question, ping me at mifeng[at]gmail.com.
+You can email me at mifeng[at]gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/mifeng).
 
