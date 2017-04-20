@@ -41,37 +41,3 @@ While startups stand to benefit from recent changes in tax laws, such as the R&D
 ### Not future-proof
 
 As startups get larger and start needing audited financial statements (usually Series B), they need to reconcile past financial statements and tax filings for their auditors.  Since past tax filings are primarily in paper format with scant electronic documentation, this process can be extremely time-consuming and expensive.
-
-## Status quo solutions
-
-Startups use different providers for tax-related obligations:
-
-### Corporate tax
-
-Startups typically hire small, local accounting firms to tax-related obligations. Some startups also hire these firms for day-to-day bookkeeping.  This is an extremely fragmented, non-technically savvy industry.
-
-### Payroll tax
-
-Each quarter, startups need to file Form 941 and pay withholding taxes on salaries that they pay full-time employees.  At year end, they need to file Form 1099-MISC for their contractors.  Payroll processors such as Gusto and Intuit Payroll handle these aspects for US-based employees and contractors.  
-
-Currently, it appears that companies with international employees and contractors need to manage payroll and tax for them manually.
-
-!!! warning "Reminder"
-    Check with smaller startups like Appfluence like how they handle international employees
-
-### Sales tax and VAT
-
-While software solutions such as [Avalara](https://www.avalara.com/) and Taxjar exist, they still require integration with billing and ERP systems.  Smaller startups usually ignore these issues until they get big enough.  
-
-At my prior company (Nitro), the complexity of integrating VAT-related tax solutions prevented us from selling certain products outside the United States.
-
-## The opportunity
-
-Ensuring tax compliance is complex and important, and thus should be performed by an expert.  However, since at its core the process of tax compliance is applying a set a of decision functions to structured data, **the work should be performed by an intelligent software agent, not a human**.  
-
-For personal taxes, individuals have increasingly relied on software (TurboTax).  For the payroll tax sub-component, companies have recently started to use software (Gusto).  However, the bulk of tax-related work for companies is still being performed by a fragmented set of local accounting firms.  
-
-A software-based solution focused on serving the needs of early-stage startups can be better, cheaper and more future-proof than the status quo.
-
-!!! warning "Question"
-    How much do companies spend on taxes?

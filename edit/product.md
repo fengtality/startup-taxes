@@ -1,7 +1,7 @@
-## Ideas for the first product
-
 !!! note ""
-    While I think **taxes for startups** is an attractive market generally, picking the right attack vector is crucial in getting to product-market fit.
+    While I think **simplifying taxes for startups** is an attractive opportunity generally, getting to product-market fit will depend on selecting the right initial problem to tackle, building the right solution, and using the right business model.  Since I don't know what those are yet, I'll just list all the ideas I have.
+
+## Product ideas
 
 ### R&D payroll credit app
 

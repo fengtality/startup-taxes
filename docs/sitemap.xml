@@ -11,6 +11,14 @@
 
     
     <url>
+     <loc>http://mifeng.github.io/startup-taxes/whynow/</loc>
+     <lastmod>2017-04-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>http://mifeng.github.io/startup-taxes/problem/</loc>
      <lastmod>2017-04-19</lastmod>
      <changefreq>daily</changefreq>
@@ -19,15 +27,7 @@
 
     
     <url>
-     <loc>http://mifeng.github.io/startup-taxes/market/</loc>
-     <lastmod>2017-04-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://mifeng.github.io/startup-taxes/whynow/</loc>
+     <loc>http://mifeng.github.io/startup-taxes/statusquo/</loc>
      <lastmod>2017-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -51,15 +51,7 @@
 
     
     <url>
-     <loc>http://mifeng.github.io/startup-taxes/landscape/</loc>
-     <lastmod>2017-04-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>http://mifeng.github.io/startup-taxes/faq/</loc>
+     <loc>http://mifeng.github.io/startup-taxes/risks/</loc>
      <lastmod>2017-04-19</lastmod>
      <changefreq>daily</changefreq>
     </url>

@@ -48,13 +48,12 @@ markdown_extensions:
 # Page tree
 pages:
     - 'Intro': index.md
-    - 'Problem': problem.md
-    - 'Market size': market.md
     - 'Why now?': whynow.md
+    - 'Problem': problem.md
+    - 'Status quo': statusquo.md
     - 'Product': product.md
     - 'Go-to-market': goto.md
-    - 'Competitive landscape': landscape.md
-    - 'FAQ': faq.md
+    - 'Risks': risks.md
     - 'Timeline': timeline.md
     
 #    - About: about.md
