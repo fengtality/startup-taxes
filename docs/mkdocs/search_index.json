@@ -122,7 +122,7 @@
         }, 
         {
             "location": "/product/", 
-            "text": "While I think \nsimplifying taxes for startups\n is an attractive opportunity generally, getting to product-market fit will depend on selecting the right initial problem to tackle, building the right solution, and using the right business model.  Since I don't know what those are yet, I'll just list all the ideas I have.\n\n\n\n\nProduct ideas\n\n\nR\nD payroll credit app\n\n\n\n\nRestate 2016 taxes to capture R\nD credits\n\n\nIntegrate with payroll processor to institute them\n\n\nCharge a small percentage of the savings\n\n\n\n\nTurboTax for startups\n\n\n\n\nAutomated tool with Q\nA and data integrations to file corporate taxes\n\n\nInitially, for startups using Gusto and Quickbooks Online only\n\n\nCircumvent annual cycle time and build credibility by allowing startups to simulate tax filings for prior years\n\n\n\n\nTax calendar\n\n\n\n\nTool that creates calendar reminders for important tax dates throughout the year\n\n\n\n\n\n\nContrary to common perception, the process of meeting corporate tax obligations is a \nyear-round task\n.\n\n\nAsk a few basic questions:\n\n\nstates of incorporation/operation\n\n\ncompany type (LLC/S-corp/C-corp/sole proprietoship)\n\n\nfiscal and year end date)\n\n\n\n\n\n\nUse Google Calendar API to create events and reminders\n\n\nProbably needs to be really cheap or free\n\n\n\n\nExpense finder\n\n\n\n\nHelp startup founders identify out-of-pocket business expenses and get them reimbursed while staying in compliance with tax laws\n\n\n\n\n\n\nSearch personal credit card transactions and Gmail for transactions that may be business related and can be expensed\n\n\nBusiness trip-related meals, lodging and transportation\n\n\nCommuting-related expenses up to $255/month (Caltrain, Uber)\n\n\nCell phone bills\n\n\n\n\n\n\nIntegrate with QBO and Xero to report them\n\n\nProbably needs to be really cheap or free\n\n\n\n\nAPI for sales tax and VAT\n\n\n\n\nBuild an API that provides the applicable sales tax and VAT for a given location\n\n\nBuild integrations starting with Salesforce, Stripe, etc.\n\n\n\n\nPEO for international employees and contractors\n\n\n\n\nHelp startup comply with tax regulations for international workers by being the employer of record\n\n\nCharge a percentage of payroll\n\n\n\n\nBusiness models\n\n\nSaaS with PS \n(Avalara, Zuora)\n\n\n\n\nSubscription revenues with different bundles depending on level of service  \n\n\nInclude professional services for complex tax situations and custom integrations\n\n\nScale by serving larger customers\n\n\n\n\nPure SaaS \n(Gusto, Stripe)\n\n\n\n\nSubscription revenues that scale with number of transactions or employees\n\n\nDon't offer professional services\n\n\nScale by serving small businesses in more verticals\n\n\n\n\nAffiliate revenues \n(Mint, Credit Karma)\n\n\nOffer free apps to collect data.  Refer qualified leads to:\n\n\n\n\nAccountants: complex tax situtations, international\n\n\nBanks, online lenders and VCs: companies with track record of revenue growth", 
+            "text": "While I think \nsimplifying taxes for startups\n is an attractive opportunity generally, getting to product-market fit will depend on selecting the right initial problem to tackle, building the right solution, and using the right business model.  Since I don't know what those are yet, I'll just list all the ideas I have.\n\n\n\n\nProduct ideas\n\n\nTax checker for tech startups\n\n\n\n\nCheck status of compliance with federal, Delaware, and California tax laws\n\n\nDid you register as a California foreign corp?\n\n\nDid you file the California statement of information? (\npenalty\n)\n\n\n\n\n\n\nAnalyze past tax filings for tax savings such as:\n\n\nNot getting R\nD payroll credits (\nexplanation\n)\n\n\nNot withholding tax for international contractors/employees (\nexplanation\n)\n\n\nNot expensing business travel/meals\n\n\n\n\n\n\nMonetize by amending returns for a fee equal to a percentage of the savings found\n\n\n\n\nTax checker for tech workers\n\n\n\n\nAnalyze past tax filings for tax savings such as:\n\n\nPaying double tax on RSU/option exercise because of wrong basis (\nhow this can happen\n)\n\n\n2 working parents not using the childcare credit\n\n\nCharitable donations, found by searching for matching email receipts via Gmail API\n\n\nDeductible health care expenses\n\n\n\n\n\n\nMonetize by amending returns for a fee equal to a percentage of the savings found\n\n\n\n\nAPI for sales tax and VAT\n\n\n\n\nBuild an API that provides the applicable sales tax and VAT for a given location\n\n\nBuild integrations starting with Salesforce, Stripe, etc.\n\n\n\n\nBusiness models\n\n\nSaaS with PS \n(Avalara, Zuora)\n\n\n\n\nSubscription revenues with different bundles depending on level of service  \n\n\nInclude professional services for complex tax situations and custom integrations\n\n\nScale by serving larger customers\n\n\n\n\nPure SaaS \n(Gusto, Stripe)\n\n\n\n\nSubscription revenues that scale with number of transactions or employees\n\n\nDon't offer professional services\n\n\nScale by serving small businesses in more verticals\n\n\n\n\nAffiliate revenues \n(Mint, Credit Karma)\n\n\nOffer free apps to collect data.  Refer qualified leads to:\n\n\n\n\nAccountants: complex tax situtations, international\n\n\nBanks, online lenders and VCs: companies with track record of revenue growth", 
             "title": "Product"
         }, 
         {
@@ -131,34 +131,19 @@
             "title": "Product ideas"
         }, 
         {
-            "location": "/product/#rd-payroll-credit-app", 
-            "text": "Restate 2016 taxes to capture R D credits  Integrate with payroll processor to institute them  Charge a small percentage of the savings", 
-            "title": "R&amp;D payroll credit app"
+            "location": "/product/#tax-checker-for-tech-startups", 
+            "text": "Check status of compliance with federal, Delaware, and California tax laws  Did you register as a California foreign corp?  Did you file the California statement of information? ( penalty )    Analyze past tax filings for tax savings such as:  Not getting R D payroll credits ( explanation )  Not withholding tax for international contractors/employees ( explanation )  Not expensing business travel/meals    Monetize by amending returns for a fee equal to a percentage of the savings found", 
+            "title": "Tax checker for tech startups"
         }, 
         {
-            "location": "/product/#turbotax-for-startups", 
-            "text": "Automated tool with Q A and data integrations to file corporate taxes  Initially, for startups using Gusto and Quickbooks Online only  Circumvent annual cycle time and build credibility by allowing startups to simulate tax filings for prior years", 
-            "title": "TurboTax for startups"
-        }, 
-        {
-            "location": "/product/#tax-calendar", 
-            "text": "Tool that creates calendar reminders for important tax dates throughout the year    Contrary to common perception, the process of meeting corporate tax obligations is a  year-round task .  Ask a few basic questions:  states of incorporation/operation  company type (LLC/S-corp/C-corp/sole proprietoship)  fiscal and year end date)    Use Google Calendar API to create events and reminders  Probably needs to be really cheap or free", 
-            "title": "Tax calendar"
-        }, 
-        {
-            "location": "/product/#expense-finder", 
-            "text": "Help startup founders identify out-of-pocket business expenses and get them reimbursed while staying in compliance with tax laws    Search personal credit card transactions and Gmail for transactions that may be business related and can be expensed  Business trip-related meals, lodging and transportation  Commuting-related expenses up to $255/month (Caltrain, Uber)  Cell phone bills    Integrate with QBO and Xero to report them  Probably needs to be really cheap or free", 
-            "title": "Expense finder"
+            "location": "/product/#tax-checker-for-tech-workers", 
+            "text": "Analyze past tax filings for tax savings such as:  Paying double tax on RSU/option exercise because of wrong basis ( how this can happen )  2 working parents not using the childcare credit  Charitable donations, found by searching for matching email receipts via Gmail API  Deductible health care expenses    Monetize by amending returns for a fee equal to a percentage of the savings found", 
+            "title": "Tax checker for tech workers"
         }, 
         {
             "location": "/product/#api-for-sales-tax-and-vat", 
             "text": "Build an API that provides the applicable sales tax and VAT for a given location  Build integrations starting with Salesforce, Stripe, etc.", 
             "title": "API for sales tax and VAT"
-        }, 
-        {
-            "location": "/product/#peo-for-international-employees-and-contractors", 
-            "text": "Help startup comply with tax regulations for international workers by being the employer of record  Charge a percentage of payroll", 
-            "title": "PEO for international employees and contractors"
         }, 
         {
             "location": "/product/#business-models", 
@@ -182,7 +167,7 @@
         }, 
         {
             "location": "/goto/", 
-            "text": "Partnerships\n\n\nAccelerators\n\n\n\n\nStartX\n\n\nYCombinator\n\n\n\n\nBanks\n\n\n\n\nSilicon Valley Bank\n\n\nFirst Republic Bank\n\n\n\n\nOther G\nA SaaS\n\n\n\n\nStripe Atlas\n\n\nIntuit\n\n\nGusto\n\n\nClerky\n\n\n\n\nContent marketing\n\n\nStartuptaxes.org\n\n\n\n\nPublic wiki about startup taxes\n\n\n\n\n\n\nSEO/SEM aimed at cheap keywords like \u201c409a\u201d \u201cr\nd tax credit\u201d \u201csaas sales tax\u201d\n\n\n\n\nUltimate Guide to [tax/accounting issue]\n\n\n\n\nE-books that demystify complex issues like sales tax, VAT, R\nD credits, fringe benefits, etc\n\n\n\n\n\n\nSimilar strategy to \nZapier's guides\n\n\nAimed at startup CFO persona\n\n\n\n\nFree tools\n\n\n\n\nTax calendar Google Calendar widget\n\n\nSlackbot\n\n\n\n\nReferral bonuses (Gusto model)", 
+            "text": "Partnerships\n\n\nAccelerators\n\n\n\n\nStartX\n\n\nYCombinator\n\n\n\n\nBanks\n\n\n\n\nSilicon Valley Bank\n\n\nFirst Republic Bank\n\n\n\n\nOther G\nA SaaS\n\n\n\n\nStripe Atlas\n\n\nIntuit\n\n\nGusto\n\n\nClerky\n\n\n\n\nContent marketing\n\n\nStartuptaxes.org\n\n\n\n\nPublic wiki about startup taxes\n\n\n\n\n\n\nSEO/SEM aimed at cheap keywords like \u201c409a\u201d \u201cr\nd tax credit\u201d \u201csaas sales tax\u201d\n\n\n\n\nUltimate Guide to [tax/accounting issue]\n\n\n\n\nE-books that demystify complex issues like sales tax, VAT, R\nD credits, fringe benefits, etc\n\n\n\n\n\n\nSimilar strategy to \nZapier's guides\n\n\nAimed at startup CFO persona\n\n\n\n\nFree tax calendar\n\n\n\n\nTool that creates calendar reminders for important tax dates throughout the year\n\n\n\n\n\n\nContrary to common perception, the process of meeting corporate tax obligations is a \nyear-round task\n.\n\n\nAsk a few basic questions:\n\n\nstates of incorporation/operation\n\n\ncompany type (LLC/S-corp/C-corp/sole proprietoship)\n\n\nfiscal and year end date)\n\n\n\n\n\n\nUse Google Calendar API to create events and reminders\n\n\n\n\nReferral bonuses (Gusto model)", 
             "title": "Go-to-market"
         }, 
         {
@@ -221,9 +206,9 @@
             "title": "Ultimate Guide to [tax/accounting issue]"
         }, 
         {
-            "location": "/goto/#free-tools", 
-            "text": "Tax calendar Google Calendar widget  Slackbot", 
-            "title": "Free tools"
+            "location": "/goto/#free-tax-calendar", 
+            "text": "Tool that creates calendar reminders for important tax dates throughout the year    Contrary to common perception, the process of meeting corporate tax obligations is a  year-round task .  Ask a few basic questions:  states of incorporation/operation  company type (LLC/S-corp/C-corp/sole proprietoship)  fiscal and year end date)    Use Google Calendar API to create events and reminders", 
+            "title": "Free tax calendar"
         }, 
         {
             "location": "/goto/#referral-bonuses-gusto-model", 

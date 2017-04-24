@@ -27,8 +27,14 @@
 * Similar strategy to [Zapier's guides](https://zapier.com/learn/)
 * Aimed at startup CFO persona
 
-### Free tools
-* Tax calendar Google Calendar widget
-* Slackbot
+### Free tax calendar
+> Tool that creates calendar reminders for important tax dates throughout the year
+
+* Contrary to common perception, the process of meeting corporate tax obligations is a [year-round task](https://kruze.app.box.com/v/sfstartuptaxcalendar).
+* Ask a few basic questions:
+    * states of incorporation/operation
+    * company type (LLC/S-corp/C-corp/sole proprietoship)
+    * fiscal and year end date)
+* Use Google Calendar API to create events and reminders
 
 ## Referral bonuses (Gusto model)

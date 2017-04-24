@@ -3,49 +3,30 @@
 
 ## Product ideas
 
-### R&D payroll credit app
+### Tax checker for tech startups
 
-* Restate 2016 taxes to capture R&D credits
-* Integrate with payroll processor to institute them
-* Charge a small percentage of the savings
+* Check status of compliance with federal, Delaware, and California tax laws
+    * Did you register as a California foreign corp?
+    * Did you file the California statement of information? ([penalty](https://www.ftb.ca.gov/businesses/SOS-Penalty.shtml))
+* Analyze past tax filings for tax savings such as:
+    * Not getting R&D payroll credits ([explanation](https://www.mossadams.com/articles/2016/february/r-d-credit-can-help-offset-payroll-taxes))
+    * Not withholding tax for international contractors/employees ([explanation](https://www.quora.com/What-does-a-US-based-company-need-to-do-to-comply-with-IRS-regulations-in-paying-foreign-contractors/answer/Wray-Rives?srid=1QR))
+    * Not expensing business travel/meals
+* Monetize by amending returns for a fee equal to a percentage of the savings found
 
-### TurboTax for startups
+### Tax checker for tech workers
 
-* Automated tool with Q&A and data integrations to file corporate taxes
-* Initially, for startups using Gusto and Quickbooks Online only
-* Circumvent annual cycle time and build credibility by allowing startups to simulate tax filings for prior years
-
-### Tax calendar
-> Tool that creates calendar reminders for important tax dates throughout the year
-
-* Contrary to common perception, the process of meeting corporate tax obligations is a [year-round task](https://kruze.app.box.com/v/sfstartuptaxcalendar).
-* Ask a few basic questions:
-    * states of incorporation/operation
-    * company type (LLC/S-corp/C-corp/sole proprietoship)
-    * fiscal and year end date)
-* Use Google Calendar API to create events and reminders
-* Probably needs to be really cheap or free
-
-### Expense finder
-
->Help startup founders identify out-of-pocket business expenses and get them reimbursed while staying in compliance with tax laws
-
-* Search personal credit card transactions and Gmail for transactions that may be business related and can be expensed
-    * Business trip-related meals, lodging and transportation
-    * Commuting-related expenses up to $255/month (Caltrain, Uber)
-    * Cell phone bills
-* Integrate with QBO and Xero to report them
-* Probably needs to be really cheap or free
+* Analyze past tax filings for tax savings such as:
+    * Paying double tax on RSU/option exercise because of wrong basis ([how this can happen](https://news.ycombinator.com/item?id=14113412#up_14118328))
+    * 2 working parents not using the childcare credit
+    * Charitable donations, found by searching for matching email receipts via Gmail API
+    * Deductible health care expenses
+* Monetize by amending returns for a fee equal to a percentage of the savings found
 
 ### API for sales tax and VAT
 
 * Build an API that provides the applicable sales tax and VAT for a given location
 * Build integrations starting with Salesforce, Stripe, etc.
-
-### PEO for international employees and contractors
-
-* Help startup comply with tax regulations for international workers by being the employer of record
-* Charge a percentage of payroll
 
 ## Business models
 
